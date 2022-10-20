@@ -22,7 +22,7 @@
     <!-- Navbar - section -->
     <div class="sticky">
     <nav class="navbar navbar-expand-lg navbar-dark bg1">
-      <a class="navbar-brand logo" href="#"><img class=" col-4 offset-5 col-md-4 offset-md-4 col-lg-4 offset-lg-4" src="/images/C logo.png" alt=""><h2 class="d-inline"></h2></a>
+      <a class="navbar-brand logo" href="#"><img class=" col-4 offset-6 col-md-4 offset-md-4 col-lg-4 offset-lg-4 col-sm-2 row" src="/images/C logo.png" alt=""><h2 class=""></h2></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -66,24 +66,27 @@
         <!-- Web API Ecommerce Start -->
         <div class="row p-4 mb-5 pb-5 d-flex">
             <div class="col-12 col-lg-6 col-md-6 order-2 order-md-1 order-lg-1 mt-5 pr-5 text-center text-justify row-4 row-offset-4">
-                <h1 class="pt-3 text-light text-weight-bold row-sm-4 offset-2">Hi. I'm Chester</h1>
-                <h1 class=" textinfo row-sm-4 offset-2">A Web Developer</h1>
-                <p class="text-light bio bg-dark col-sm-6 offset-1 col-md-12  col-lg-6 offset-lg-3 p-4 mt-5">My name is Chester Catapia and I am 20 years old. I am passionate about computer and being a Web developer is one of my goal because I would like to be a part of the evolution of Technology and I like to express my creative side too. </p>
-                <div class="">
+                <h1 class="pt-3 text-light text-weight-bold row-sm-4 row-lg-4 offset-lg-1 offset-2">Hi. I'm Chester</h1>
+                <h1 class=" textinfo row-lg-4 offset-lg-1 row-sm-4 offset-2">A Web Developer</h1>
+                <p class="text-light bio bg-dark col-sm-6 offset-1 col-md-12  col-lg-8 offset-lg-2 p-4 mt-5">My name is Chester Catapia and I am 20 years old. I am passionate about computer and being a Web developer is one of my goal because I would like to be a part of the evolution of Technology and I like to express my creative side too. </p>
+                <!-- <div class="">
                   <button type="button" class="btn btn-lg col-8 offset-3  btn-block col-md-6 mt-5  offset-md-3 col-lg-4 offset-lg-4 justify-content-center " ><a class="text-decoration-none link" href="#website">Proceed</a></button>
-                </div>
+                </div> -->
+                
             </div>
-            <div class="col-lg-6 col-md-6 order-1 order-md-1 col-xl-5 offset-xl-1 order-lg-1">
+            <div class="col-lg-6 col-md-6 order-1 order-md-1 col-xl-5 offset-xl-1 order-lg-1 pt-4">
                 <img class="img-fluid "  src="images/Chester (1).png"/>
             </div>
         </div>
 
+        <button class="custom-btn btn-16"><a class="text-decoration-none link" href="#website">Read More</a></button>
+
         
 
             <!-- Start of Cards -->
-            <div class="bg2 text-light min-vh-100 p-3 text-center pt-5 mt-5" id="website">
+            <div class=" bg2 text-light min-vh-100 p-3 text-center pt-5 mt-5 align-items-center" id="website">
               <h2>My Project Websites</h2>
-              <div class="d-md-flex justify-content-md-around">
+              <div class="d-md-flex justify-content-md-around pt-5">
                   <!-- first card -->
                   <div class="card bg6 col-md-4 row-10 p-3 mb-3 offset-md-0">
                       <img src="/images/deathwish.png" class="card-img-top mt-4" alt="...">
@@ -94,8 +97,8 @@
                           
                           Mugs up, mother functioners.</p>
                       </div>
-                      <div class="card-body">
-                        <a href="https://www.deathwishcoffee.com/" class="card-link" target="_blank">deathwishcoffee.com</a>
+                      <div class="card-body offset-1 col-md-10">
+                        <a href="https://www.deathwishcoffee.com/" class="card-link dm" target="_blank">deathwishcoffee.com</a>
                       </div>
                     </div>
                       <!-- end of first card -->
@@ -108,7 +111,7 @@
                         <p class="card-text">NUTRITIONAL SUPERFOOD FOR HEROIC PETS
                           Tail-waggingly tasty, naturally hypoallergenic, and planet-friendly, our vet-approved insect-based products deliver all the nutritional goodness of regular meat, but without the carbon footprint and meat-related allergies, which is great news for glossy coats, happy tummies, and the planet!</p>
                       </div>
-                      <div class="card-body">
+                      <div class="card-body offset-2">
                         <a href="https://mygrubclub.com/" class="card-link" target="_blank">mygrubclub.com</a>
                       </div>
                     </div>
@@ -121,8 +124,8 @@
                         <h5 class="card-title">Soso Sake</h5>
                         <p class="card-text">Soso Sake is the first low abv, flavored sake in a can with bubbles. It’s perfectly effervescent, smooth and absolutely delicious in any setting.</p>
                       </div>
-                      <div class="card-body" id="tools">
-                        <a href="https://sososake.com/" class="card-link" target="_blank" id="gallery">sososake.com</a>
+                      <div class="card-body offset-md-2 offset-lg-3 offset-2" id="tools">
+                        <a href="https://sososake.com/" class="card-link " target="_blank" id="gallery">sososake.com</a>
                       </div>
                     </div>
                       <!-- end of the third card -->
@@ -130,10 +133,19 @@
           </div>
           <!-- end of the cards -->
 
-           <!-- Start of Carousel -->
-           <div class="row d-md-block d-none pt-5 pb-5 bg5 text-light" >
+          <div class="container-fluid text-center text-light d-lg-none d-md-none bg4 pt-5">
             <h2>Gallery</h2>
-            <div class="col-8 offset-2 pt-5">
+            <div class="row border-rounded pt-5">
+              <img class="img-fluid border" src="/gallery/fuca-2491995__340.jpg" alt="">
+              <img class="img-fluid border" src="gallery/dog-2556796__340.jpg" alt="">
+            </div>
+          </div>
+
+           <!-- Start of Carousel -->
+           <div class="row d-md-block d-none pt-5 pb-5 bg5 text-light " >
+            <h2>Gallery</h2>
+            <div class="col-8 offset-2 pt-5 col-sm-10 col-lg-10
+            offset-lg-1 col-md-8 ">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -190,11 +202,11 @@
           <h3>My Front-end Tools</h3>
 
           <div>
-              <div class="">
+              <div class="pt-5">
                   <img class="img-fluid" width="150" src="tools/logo-html5.png"/>
                   <img class="img-fluid" width="150" src="/tools/logo-bootstrap.png"/>
               </div>
-              <div>
+              <div class="pb-5">
                   <img class="img-fluid" width="150" src="tools/logo-css3.png"/>
                   <img class="img-fluid" width="150" src="tools/logo-javascript.png"/>
               </div>
@@ -204,7 +216,7 @@
           <!-- Other Tools Section Start -->
           <h3>Back-end Tools</h3>
 
-          <div class="d-flex flex-lg-column flex-md-column">
+          <div class="d-flex flex-lg-column flex-md-column pt-5">
               <div class="">
                   <a href=""><img class="img-fluid hov" width="150" src="tools/logo-mongodb.png"/></a>
                   <img class="img-fluid" width="150" src="tools/logo-nodejs.png"/>
@@ -247,7 +259,8 @@
         </div>
 
         <div class="container-fluid text-light text-center bg4">
-          <div class="col-lg-6 offset-lg-3 col-sm-8 col-md-10 offset-md-1">
+          <h2>Contact Us</h2>
+          <div class="col-lg-6 offset-lg-3 col-sm-8 col-md-10 offset-md-1 pt-5">
             <form>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Full Name</label>
@@ -270,7 +283,7 @@
                 </select>
               </div>
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
+                <label for="exampleFormControlTextarea1">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
               </div>
               <div class="input-group-append">
@@ -281,7 +294,7 @@
         </div>
 
         <!-- Footer -->
-      <div class="container-fluid text-light mt-5 text-center bg5 pt-5" >
+      <div class="container-fluid text-light mt-5 text-center bg5 pt-5 min-vh-100" >
         <div class="row">
         <nav class="col-6 offset-3">
           <h6> Chester Catapia</h6>
