@@ -4,6 +4,29 @@
     padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+  gap: 20px;
+  border: 2px solid #FFA926;
+  border-radius: 5px;
+  align-items: center;
+  
+  
+  
+}
+.cardss{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+  gap: 20px;
+  }
+
 
 body {
     background: #000;
@@ -158,7 +181,7 @@ body {
 
 .bg6{
     background-color: rgba(0,0,0,1);
-    border: 1px solid white;
+    border: 2px solid #FFA926;
 }
 
 .bg4{
@@ -176,6 +199,7 @@ body {
     width: 200px;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     text-decoration: none;
     border-radius: 20%;
